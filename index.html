@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="asserts/style.css">
-    <title>People Counter</title>
+    <link rel="icon" type="image/png" href="asserts/images/counter (1).png">
+    <title>Counter</title>
 </head>
 <body>
-    <h1>People Counter</h1>
+    <div class="container">
+    <h1>Counter</h1>
     <h2 id="countPeople">0</h2>
 
 
     <button id="incrementButton" onclick="increment()">Increment</button>
     
-    <button id="saveButton" >Save</button>
+    <button id="saveButton" onclick="save()">Save</button>
+
+    <h3 id="previous-el">Previous entries: </h3>
+    <h3>Total entries: <span id="total-entries-el"></span></h3>
+</div>
 </body>
 <script src="index.js"></script>
 </html>
