@@ -1,30 +1,52 @@
-h1{
-    font-size: 80px;
+body {
+    background-image: url(images/pink-feather.jpg);
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    height: 100vh;
 }
 
-h2 {
-    font-size: 70px;
+.container {
+    justify-items: center;
+    padding: 50px 0px;
+    max-width: 40%;
+    margin: 15% auto;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
 }
+
 
 button {
     border: none;
-    color: white;
     font-weight: bold;
-    margin: 5px 10px;
+    margin: 10px 5px;
     border-radius: 5px;
-    font-size: 60px;
-    padding: 20px 30px;
+    padding: 10px 10px;
+    min-width: 60%;
     transition: transform 0.2s;
 }
 
 button:hover {
-    transform: scale(1.05); 
+    transform: scale(1.03);
+    box-shadow: 0px 0px 20px rgba(253, 0, 0, 0.5);
 }
 
 #incrementButton{
-    background-color: darkred;
+    background-color: rgba(248, 118, 118, 0.15);
+    backdrop-filter: blur(5px);
+}
+
+
+#incrementButton:hover {
+    box-shadow: 0px 0px 20px rgba(253, 0, 0, 0.2);
 }
 
 #saveButton{
-    background-color: darkgreen;
+    background-color:rgba(156, 250, 155, 0.15);
+    backdrop-filter: blur(5px);
+}
+
+#saveButton:hover {
+    box-shadow: 0px 0px 20px rgba(33, 86, 0, 0.2);
 }
